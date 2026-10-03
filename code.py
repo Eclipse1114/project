@@ -3,7 +3,7 @@ import random
 
 st.markdown("""
   <style>
-    st.App {
+    html {
       background-color: red;
       color: lightblue;
     }
