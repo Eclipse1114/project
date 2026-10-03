@@ -4,8 +4,8 @@ import random
 st.markdown("""
   <style>
     .stApp {
-      background-color: rgb(240, 150, 250);
-      color: rgb(150, 170, 240);
+      background-color: rgb(240, 150, 170);
+      color: rgb(100, 170, 250);
     }
 
     button {
