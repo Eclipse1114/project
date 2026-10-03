@@ -5,7 +5,7 @@ st.markdown("""
   <style>
     .stApp {
       background-color: rgb(250, 100, 170);
-      color: rgb(40, 50, 250);
+      color: rgb(60, 90, 250);
     }
 
     button {
