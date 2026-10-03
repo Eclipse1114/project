@@ -3,9 +3,14 @@ import random
 
 st.markdown("""
   <style>
-    html {
+    .stApp {
       background-color: red;
       color: lightblue;
+    }
+
+    button {
+      background-color: black;
+      color: blue;
     }
   </style>
 """, unsafe_allow_html=True)
