@@ -9,7 +9,7 @@ st.markdown("""
     }
 
     button {
-      background-color: rgb(50, 0, 150) !important;
+      background-color: rgb(150, 170, 240) !important;
       color: black !important;
     }
   </style>
