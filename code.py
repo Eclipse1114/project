@@ -85,13 +85,8 @@ dares = [
 
 message = "Press Truth to reveal something about yourself, or Dare to test your luck with a challenge!"
 
-col1, col2 = st.columns([1, 1])
-
-with col1:
-    truth = st.button("Truth")
-
-with col2:
-    dare = st.button("Dare")
+truth = st.button("Truth")
+dare = st.button("Dare")
 
 if truth:
     message = random.choice(truths)
