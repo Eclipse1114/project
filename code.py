@@ -4,13 +4,13 @@ import random
 st.markdown("""
   <style>
     .stApp {
-      background-color: (100, 0, 0);
-      color: (0, 0, 150);
+      background-color: rgb(100, 0, 0);
+      color: rgb(0, 0, 150);
     }
 
     button {
-      background-color: (0, 0, 0);
-      color: (0, 0, 200);
+      background-color: rgb(0, 0, 0);
+      color: rgb(0, 0, 200);
     }
   </style>
 """, unsafe_allow_html=True)
