@@ -85,7 +85,7 @@ dares = [
 
 message = "Press Truth to reveal something about yourself, or Dare to test your luck with a challenge!"
 
-col1, col2 = st.columns(2, gap="small")
+col1, col2 = st.columns([1, 1])
 
 with col1:
     truth = st.button("Truth")
