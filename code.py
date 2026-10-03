@@ -5,12 +5,20 @@ st.markdown("""
   <style>
     .stApp {
       background-color: rgb(240, 150, 170);
-      color: blue;
+      color: rgb(150, 170, 240);
     }
 
     button {
       background-color: rgb(150, 170, 240) !important;
       color: black !important;
+    }
+
+    .stAppHeader {
+      visibility: hidden;
+    }
+
+    .stAppToolbar {
+      visibility: visible;
     }
   </style>
 """, unsafe_allow_html=True)
