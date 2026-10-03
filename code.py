@@ -8,7 +8,7 @@ st.markdown("""
       color: lightblue;
     }
   </style>
-""", unsafe_allow_htm=True)
+""", unsafe_allow_html=True)
 
 st.set_page_config(
   page_title="Maria's app"
