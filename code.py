@@ -4,7 +4,7 @@ import random
 st.markdown("""
   <style>
     .stApp {
-      background-color: rgb(240, 150, 170);
+      background-color: rgb(250, 100, 170);
       color: rgb(100, 50, 250);
     }
 
