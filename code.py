@@ -85,8 +85,9 @@ dares = [
 
 message = "Press Truth to reveal something about yourself, or Dare to test your luck with a challenge!"
 
-truth = st.button("Truth")
-dare = st.button("Dare")
+with st.container(horizontal=True, gap="small"):
+    truth = st.button("Truth")
+    dare = st.button("Dare")
 
 if truth:
     message = random.choice(truths)
