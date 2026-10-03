@@ -1,4 +1,4 @@
-import streamlit
+import streamlit as st
 import random
 
 st.markdown("""
